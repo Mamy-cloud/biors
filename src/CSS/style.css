@@ -9,7 +9,7 @@ Variable
 }
 /* police */
 :root{
-    --police-principale: Arial, Helvetica, sans-serif;
+    --police-principale: "Montserrat", sans-serif;
 }
 /* --------------------------------------------------------------
 style global
@@ -20,7 +20,57 @@ body{
     flex-direction: column;
 }
 
+/* lorsque la souris survol un texte */
+.souligne {
+    position: relative;
+}
+
+.souligne::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 1px;
+    background-color: var(--color-first);
+    transition: width 0.3s ease-in-out;
+}
+
+.souligne:hover::after {
+    width: 100%;
+}
+
 /* --------------------------------------------------------------
 header
 -------------------------------------------------------------- */
+header{
+    width: 100%;
+    height: 100px;
+}
 
+.logo a img{
+    margin-right: 10vw;
+    margin-left: 50px;
+    width: 150px;
+    height: auto;
+}
+
+
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
+.nav-list li{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: var(--color-first);
+    font-size: 15px;
+}
