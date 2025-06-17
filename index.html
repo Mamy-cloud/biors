@@ -12,22 +12,30 @@
     <title>Biors-accueil</title>
 </head>
 <body class="font-(family-name:--police-principale)" >
-    <header class=" flex flex-row items-center bg-(--color-third) ">
+    <header class=" fixed flex flex-row items-center bg-(--color-third) ">
+        <!-- navbar -->
+         <!-- menu burger -->
+          <div class="burger">
+            <div class="ligne"></div>
+        </div>
+
+
         <!-- logo -->
          <div class=" logo flex flex-col">
-            <a href="index.html"><img src="src/img/logo2.png" alt="logo-biors"></a>
-            <!-- <p class="text-(--color-first)">BIOMETRY RESEARCH AND SERVICES </p> -->
+            <a href="index.html"><img class="img-logo" src="src/img/logo2.png" alt="logo-biors"></a>
+            <p class="text-(--color-first)">Biometry Resarch And Sservices </p>
          </div>
          
+        
         <!-- navbar -->
          <nav class=" flex-row items-center bg-(--color-third)">
             <ul class="nav-list">
-                <li><a class="souligne" href="about-us.html">ABOUT US</a> </li>
-                <li><a class="souligne" href="services.html">SERVICES</a> </li>
-                <li><a class="souligne" href="area-of-expertise.html">AREAS OF EXPERTISE</a></li>
-                <li><a class="souligne" href="contact.html">CONTACT US</a></li>
+                <li><a class="souligne items" href="about-us.html">ABOUT US</a> </li>
+                <li><a class="souligne items" href="services.html">SERVICES</a> </li>
+                <li><a class="souligne items" href="area-of-expertise.html">AREAS OF EXPERTISE</a></li>
+                <li><a class="souligne items" href="contact.html">CONTACT US</a></li>
                 <li>
-                    <a class=" flex flex-row" href="#" target="_blank">
+                    <a class=" flex flex-row items" href="#" target="_blank">
                         <h4 class="font-bold">LINKEDIN</h4>
                         <img class="w-[20px] h-[20px]" src="src/img/icons8-linkedinBlanc.png" alt="icone-linkedIn">
                     </a></li>
@@ -35,5 +43,7 @@
          </nav>
     </header>
 </body>
+
+<script src="src/JS/main.js"></script>
 
 </html>

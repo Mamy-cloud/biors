@@ -48,20 +48,36 @@ header{
     height: 100px;
 }
 
-.logo a img{
+.logo{
     margin-right: 10vw;
     margin-left: 50px;
+}
+
+.logo a img{
     width: 150px;
     height: auto;
+    transition: transform 0.2s ease-in-out;
+}
+.logo a img:hover{
+    transform: scale(1.1);
+}
+
+.logo p{
+    font-size: 12px;
+    position: absolute;
+    top: 74px;
 }
 
 
-
+nav{
+    flex-direction: row;
+    position: fixed;
+}
 .nav-list{
     display: flex;
     flex-direction: row;
     /* align-items: center; */
-    position: absolute;
+    position: fixed;
     right: 0;
     top: 40px;
 }
@@ -74,3 +90,109 @@ header{
     color: var(--color-first);
     font-size: 15px;
 }
+
+/* ------------------menu burger-------------- */
+.burger {
+  display: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  top: 3rem;
+  right: 1rem;
+  transform: translate(-50%, -50%);
+  background: var(--color-second);
+  cursor: pointer;
+  z-index: 20;
+}
+
+.ligne {
+  width: 50%;
+  height: 3px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  background: var(--color-first);
+}
+
+.ligne::after,
+.ligne::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  background: #000;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.ligne::after {
+  top: -10px;
+}
+
+.ligne::before {
+  top: 10px;
+}
+
+/*  animation burger */
+
+.burger.active .ligne::before {
+  transition: transform .2s ease-in-out;
+  transform: translateY(-10px) rotate(-45deg)
+}
+
+.burger.active .ligne::after {
+  transition: transform .2s ease-in-out;
+  transform: translateY(10px) rotate(45deg)
+}
+
+.burger.active .ligne {
+  background: transparent;
+}
+
+
+
+
+/*  menu */
+
+@media (max-width: 1000px){
+.nav-list {
+    flex-direction: column;
+    position: sticky;
+    right: 0;
+    top: 40px;
+    width: 100%; /* Correction */
+    z-index: 200;
+}
+nav {
+top: 100px;
+position: absolute;
+height: auto;
+width: 100%;
+background: var(--color-second);
+transition: all .2s ease-in;
+left: -101%;
+}
+
+
+
+.nav-list li {
+  border-bottom: var(--color-first) solid 1px;
+}
+
+.nav-list li:hover::after {
+  width: 100%;
+}
+
+nav.menu-active {
+  left: 0;
+}
+
+/* menu burger */
+.burger{
+    display: flex;
+}
+}
+
