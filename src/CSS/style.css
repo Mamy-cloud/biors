@@ -1,0 +1,13 @@
+/* --------------------------------------------------------------
+Variable
+-------------------------------------------------------------- */
+/* couleur */
+:root{
+    --color-first: #ffffff;
+    --color-second: #5281BB;
+    --color-third: #3F8AE6;
+}
+/* police */
+:root{
+    --police-principale: Arial, Helvetica, sans-serif;
+}
