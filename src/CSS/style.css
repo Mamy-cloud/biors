@@ -51,12 +51,21 @@ header{
   opacity: 1;
     mix-blend-mode: normal;
     width: 100%;
-    height: 75px;
+    height: 78px;
     position: fixed;
     background-color: var(--color-third);
     z-index: 200;
 }
 
+/* -------------------icon linkedin header------------------------------ */
+.icon-linkedin-header{
+  display: none;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+
+/* -------------------logo------------------------------ */
 .logo{
     margin-right: 10vw;
     margin-left: 10vw;
@@ -66,7 +75,7 @@ header{
     width: auto;
     height: 70px;
     transition: transform 0.2s ease-in-out;
-    margin-bottom: -22px;
+    margin-bottom: -12px;
 }
 .logo a img:hover{
     transform: scale(1.1);
@@ -78,7 +87,7 @@ header{
     /* top: 74px; */
 }
 
-
+/* -------------------nav en mode PC------------------------------ */
 nav{
     flex-direction: row;
     font-size: 15px;
@@ -102,15 +111,15 @@ nav{
 }
 
 
-/* ------------------menu burger-------------- */
+/* ------------------menu burger pour la nav en responsive-------------- */
 .burger {
   display: none;
   width: 60px;
   height: 60px;
   border-radius: 50%;
   position: absolute;
-  top: 3rem;
-  right: 1rem;
+  top: 40px;
+  right: 10px;
   transform: translate(-50%, -50%);
   background: var(--color-third);
   cursor: pointer;
@@ -166,11 +175,17 @@ nav{
 
 
 
-/*  menu */
 
-@media (max-width: 800px){
+
+@media (max-width: 1000px){
+  /* -------------------icon linkedin header------------------------------ */
+.icon-linkedin-header{
+  display: initial;
+}
+  /* ---------- menu nav --------------------- */
 .nav-list {
     flex-direction: column;
+    text-align: center;
     position: sticky;
     right: 0;
     top: 40px;
@@ -194,7 +209,7 @@ left: -101%;
   padding: 20px;
 }
 
-.nav-list li::after {
+/* .nav-list li::after {
   text-align: center;
     cursor: pointer;
     content: " >";
@@ -206,27 +221,40 @@ left: -101%;
     transition: transform 0.2s ease-in-out;
 }
 
-.nav-list li:hover::after {
-    transform: translateX(5px); /* Déplace la flèche au survol */
-}
+/*.nav-list li:hover::after {
+    transform: translateX(5px);
+}*/
+.nav-list li:hover {
+    background-color: var(--color-second);
+    cursor: pointer;
+} 
 
 nav.menu-active {
   left: 0;
 }
 
 
-/* menu burger */
+/* menu burger responsive */
 .burger{
     display: flex;
+}
+
+/* -------------------effacement de linked in dans la barre de navigation en responsive----------- */
+.linkedin-nav{
+  display: none;
 }
 }
 
 /* ---------------------------------------------------------------------------
 article
 --------------------------------------------------------------------------- */
+
 article{
   margin-top: 70px;
-
+  background-image: url('fond-image-accueil.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
 }
 
 .container{
@@ -235,6 +263,15 @@ article{
     height: 600px;
     margin: auto;
     overflow: auto;
+    
+}
+
+/* titre article */
+article .title-article{
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 30px;
 }
 
 /* ------------------------structure principal--------------------------------- */
@@ -245,8 +282,9 @@ article{
   overflow: hidden;
   transition: all 0.3s ease-in-out;
   
+  
 }
-.layer-bg:hover{
+/* .layer-bg:hover{
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
   border-radius: 0px 20px 20px 0px;
   border-left: var(--color-third) solid 10px;
@@ -255,7 +293,7 @@ article{
   height: auto;
   background-color: var(--color-first);
   z-index: 100;
-}
+} */
 
 
 .layer-bg.active{
@@ -271,25 +309,26 @@ article{
 
 /* titre des éléments */
 .title-container{
-    font-size: 17px;
+    font-size: 20px;
     transition: text-shadow 0.2s ease-in-out;
     margin-bottom: 30px;
-}
-
-.title-container:hover {
     text-shadow: 3px 3px 5px var(--color-first),
                  -3px -3px 5px var(--color-first),
                  3px -3px 5px var(--color-first),
                  -3px 3px 5px var(--color-first);
 }
 
+.title-container:hover {
+    text-shadow: 7px 7px 15px var(--color-third),
+                 -7px -7px 15px var(--color-third),
+                 7px -7px 15px var(--color-third),
+                 -7px 7px 15px var(--color-third);
+}
+
 /* marge du texte à l'intérieur des bulles de texte */
 .item-container{
   margin: 5px;
 }
-
-
-
 
 /* position de chaque container */
 .container1{
@@ -339,6 +378,88 @@ article{
  right: 90px;
 }
 
+@media (max-width: 1060px){
+  .container{
+    height: auto;
+  }
+
+  .layer-bg{
+    height: 38px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 0px 20px 20px 0px;
+    border-left: var(--color-third) solid 10px;
+    margin-left: 10px;
+    background-color: var(--color-first);
+    margin: 30px;
+    margin-left: 15vw;
+  }
+
+  .layer-bg.active{
+  margin-left: 12vw;
+  }
+
+  /* titre article */
+  article .title-article{
+  font-size: 40px;
+}
+
+.title-container:hover {
+    text-shadow: 7px 7px 15px var(--color-first),
+                 -7px -7px 15px var(--color-first),
+                 7px -7px 15px var(--color-first),
+                 -7px 7px 15px var(--color-first);
+}
+
+}
+
+/* ---------------------------------------------------------------------------------
+bulle flottante
+--------------------------------------------------------------------------------- */
+.bulle-flottante{
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  background-color: var(--color-first);
+}
+.bulle-flottante a{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.bulle-flottante p{
+  font-size: 20px;
+}
+
+@media (max-width: 640px){
+  .bulle-flottante{
+  right: 8px;
+  bottom: 58px;
+  border-radius: 12px;
+}
+.bulle-flottante a{
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+.bulle-flottante p{
+  font-size: 15px;
+}
+
+}
+
 /* -------------------------------------------------------------------------------
 footer
 ------------------------------------------------------------------------------- */
+footer p, a, h1{
+  font-size: 20px;
+}
+
+/* footer a{
+  font-size: 20px;
+} */
