@@ -1,0 +1,57 @@
+/* --------------------------------------------------------------
+Variable
+-------------------------------------------------------------- */
+/* couleur */
+:root{
+    --color-first: #ffffff;
+    --color-second: #577191;
+    --color-third: #3F8AE6;
+}
+/* police */
+:root{
+    --police-principale: "Montserrat", sans-serif;
+}
+
+/* -----------------------------------------------------------------------------
+article
+----------------------------------------------------------------------------- */
+article{
+    margin-top: 78px;
+    
+}
+
+article h1{
+    font-weight: 800;
+    margin-top: 40px;
+    margin-bottom: 19px;
+    font-size: 30px;
+}
+
+article p{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+article section{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.statistical-project{
+    display: flex;
+    flex-direction: row;
+}
+
+article h2{
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+article h2::before {
+    content: "";
+    display: inline-block;
+    width: 30px; /* Longueur du trait */
+    height: 1px; /* Épaisseur */
+    background: black; /* Couleur */
+    margin-right: 10px; /* Espacement avec le texte */
+    vertical-align: middle;
+}
