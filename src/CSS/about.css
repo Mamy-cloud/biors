@@ -68,4 +68,7 @@ article h2::before {
     .statistical-project{
     flex-direction: column;
 }
+    .why-us h2{
+        margin-left: 0;
+    }
 }
