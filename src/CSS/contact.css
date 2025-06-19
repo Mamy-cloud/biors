@@ -1,0 +1,78 @@
+/* --------------------------------------------------------------
+Variable
+-------------------------------------------------------------- */
+/* couleur */
+:root{
+    --color-first: #ffffff;
+    --color-second: #B8C5D6;
+    --color-third: #07387A;
+}
+/* police */
+:root{
+    --police-principale: "Montserrat", sans-serif;
+}
+/* -------------------------------------------------------------------
+article
+------------------------------------------------------------------- */
+article{
+    margin-top: 78px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--color-second);
+}
+
+article section{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+article h1{
+    font-weight: 800;
+    margin-top: 40px;
+    margin-bottom: 19px;
+    font-size: 14px;
+}
+
+article p{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+article strong{
+    font-weight: 700;
+}
+
+article a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: var(--color-third);
+    text-decoration: underline;
+}
+
+article section span {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+article section span p{
+    margin: 0;
+}
+
+
+
+/* article h2{
+    font-weight: 600;
+    margin-left: 50px;
+} */
+
+
+@media(max-width:900px){
+    article section{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+    /* article section span {
+    margin-left: 2%;
+    margin-right: 2%;
+} */
+}

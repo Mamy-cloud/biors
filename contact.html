@@ -3,9 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/CSS/style.css">
+    <link rel="stylesheet" href="src/CSS/contact.css">
+    <link rel="icon" type="image/x-icon" href="biors-icon.ico">
+    <title>Biors-contact</title>
 </head>
-<body>
-    
+<body class="font-(family-name:--police-principale) bg-(--color-third)" >
+    <header class=" fixed flex flex-row items-center max-[1060px]:justify-center  bg-(--color-third) ">
+        <!-- icon linkedin sur le header -->
+         <a href="#"><img class="w-[40px] h-[40px] icon-linkedin-header" src="src/img/icons8-linked-in.png" alt="icone-linkedIn"></a>
+         
+
+
+        <!-- logo -->
+         <div class=" logo flex flex-col justify-center">
+            <a href="index.html"><img class="img-logo" src="src/img/logo-a-mettre.jpeg" alt="logo-biors"></a>
+            <!-- <p class="text-(--color-first)">Biometry Resarch And Services </p> -->
+         </div>
+         
+        
+        <!-- navbar -->
+
+        <!-- menu burger -->
+          <div class="burger">
+            <div class="ligne"></div>
+        </div>
+
+         <nav class=" flex-row items-center bg-(--color-third)">
+            
+            <ul class="nav-list">
+                <li><a class="souligne" href="about-us.html">ABOUT US</a> </li>
+                <li><a class="souligne" href="services.html">SERVICES</a> </li>
+                <li><a class="souligne" href="area-of-expertise.html">AREAS OF EXPERTISE</a></li>
+                <li class="menu-selected"><a class="souligne" href="contact.html">CONTACT US</a></li>
+                <li class="linkedin-nav">
+                <a class=" flex flex-row" href="#" target="_blank">
+                    <h4 class="font-bold">LINKEDIN</h4>
+                    <img class="w-[19px] h-[19px]" src="src/img/icons8-linked-in.png" alt="icone-linkedIn">
+                </a>
+                </li>
+            </ul>
+         </nav>
+    </header>
+
+    <article>
+        <section>
+            <h1>Let’s talk about your project! </h1>
+            <p>Whether you need biostatistics, programming, medical writing, or data management, <strong>BIORS | Biometry Research and Services</strong> is here to support your research goals.  
+            For inquiries please email us at: <a href="mailto:info@biors.org">info@biors.org</a>  . One of our team members will connect with you. 
+            </p>
+        </section>
+
+        <section class=" flex flex-row items-center justify-center max-[660px]:flex-col">
+            <span class=" flex flex-col items-center justify-center max-[700px]:justify-start  max-[700px]:items-start max-[660px]:justify-center max-[660px]:items-center ">
+                <h1>Locations in Europe </h1>
+                <img class="w-[200px] h-[150px]" src="src/img/ville-paris.jpg" alt="ville-paris">
+                <p>BIORS | Biometry Research and Services</p>
+                <p>11 B rue du Pâtis de Condé</p>
+                <p>77260 La Ferté-Sous-Jouarre</p>
+                <p>France</p>
+                <p>Tel : +33 6 61 85 13 05</p>
+            </span>
+
+            <span class=" flex flex-col items-center justify-center max-[700px]:justify-start  max-[700px]:items-start max-[660px]:justify-center max-[660px]:items-center">
+                <h1>Locations in Europe </h1>
+                <img class="w-[200px] h-[150px]" src="src/img/ville-tana.jpg" alt="ville-tana">
+                <p>BIORS | Biometry Research and Services</p>
+                <p>Immeuble Jacaranda Ambatonakanga, </p>
+                <p>101 Antananarivo</p>
+                <p>Madagascar.</p>
+                <p>Tel : +261 32 67 539 86</p>
+            </span>
+        </section>
+        
+        <section>
+            <h1>We respect your privacy</h1>
+
+            <p>
+                <strong>BIORS | Biometry Research and Services</strong> is sensitive to privacy issues, and it is important to us to 
+                protect the information provided to us. Our privacy and information practices policy inform you 
+                about our online information practices, the kinds of information we may collect, how we intend to 
+                use and share that information, and how you can correct or change such information.
+            </p>
+
+            <p>
+                In order to answer to your information request through the “contact us” page of the site, <strong>BIORS | Biometry Research and Services</strong> can be led to use your private information (for example, your name 
+                and address). As part of respect of private life and of private information, this information is strictly 
+                limited to <strong>BIORS | Biometry Research and Services</strong> use. They will never be forwarded to a third party. In accordance with the <strong>General Data Protection Regulation (Regulation (EU) 2016/679)</strong> and 
+                the <strong>French Data Protection Act (the “FDPA” of January 6, 1978)</strong> amended on June 20, 2018 and 
+                completed by two decrees of August 1, 2018 and December 12, 2018, you can exercise your rights of 
+                access, rectification, restriction of processing, data portability, objection to processing and erasure of 
+                your personal data by using the page “contact us” of the site or by contacting our DPO at the 
+                following address: <a href="mailto:protection@biors.org">protection@biors.org</a>.
+            </p>
+        </section>
+        
+        
+        
+    </article>
+
+
+    <!-- bulle flottante -->
+
+    <div class="bulle-flottante flex flex-row items-center justify-center">
+        <a class="flex flex-row" href="#"><p>Nos actualités sur LinkedIn</p><img class="w-[30px] h-[auto] max-[640px]:w-[16px]" src="src/img/icons8-linked-in-couleur-bleu.png" alt="LinkedIn"></a>
+    </div>
+    <!-- fin bulle flottante -->
+
+    <footer class="flex flex-col bg-(--color-third)">
+        <div class="flex flex-wrap bg-(--color-third)">
+
+            <div class="flex flex-col p-[50px] ml-[10vw]">
+            <img class="w-[300px] h-[auto] mb-[-2vw]" src="src/img/logo-a-mettre.jpeg" alt="logo-biors">
+            <!-- <p class="text-(--color-first)">Biometry Resarch And Services </p> -->
+            </div>
+
+            <div class="text-(--color-first) flex flex-col p-[50px] ml-[10vw]">
+                <h1 class="underline underline-offset-6 decoration-3">Mention :</h1>
+                <ul>
+                    <li><a class="souligne items" href="#" target="_blank">Legal notices</a></li>
+                    <li><a class="souligne items" href="#" target="_blank">Site map</a></li>
+                    <li><a class="souligne items" href="#" target="_blank">Privacy policies</a></li>
+                    <li><a class="souligne items" href="#" target="_blank">CSR policy</a></li>
+                    <li><a class="souligne items" href="#" target="_blank">Cookies</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="text-center text-(--color-first)"><p>&copy; 2025 Biometry Resarch And Services . Tous droits réservés.</p></div>
+        
+    </footer>
 </body>
+
+<script src="src/JS/main.js"></script>
+<script src="src/JS/contact.js"></script>
+
 </html>
