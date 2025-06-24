@@ -3,9 +3,176 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/CSS/style.css">
+    <link rel="stylesheet" href="src/CSS/service.css">
+    <link rel="icon" type="image/x-icon" href="biors-icon.ico">
+    <title>Biors-accueil</title>
 </head>
-<body>
-    
+<body class="font-(family-name:--police-principale) bg-(--color-third)" >
+    <header class=" fixed flex flex-row items-center max-[1060px]:justify-center  bg-(--color-third) ">
+        <!-- icon linkedin sur le header -->
+         <a href="#"><img class="w-[40px] h-[40px] icon-linkedin-header" src="src/img/icons8-linked-in.png" alt="icone-linkedIn"></a>
+         
+
+
+        <!-- logo -->
+         <div class=" logo flex flex-col justify-center">
+            <a href="index.html"><img class="img-logo" src="src/img/logo-a-mettre.jpeg" alt="logo-biors"></a>
+            <!-- <p class="text-(--color-first)">Biometry Resarch And Services </p> -->
+         </div>
+         
+        
+        <!-- navbar -->
+
+        <!-- menu burger -->
+          <div class="burger">
+            <div class="ligne"></div>
+        </div>
+
+         <nav class=" flex-row items-center bg-(--color-third)">
+            
+            <ul class="nav-list">
+                <li><a class="souligne" href="about-us.html">ABOUT US</a> </li>
+                <li><a class="souligne" href="services.html">SERVICES</a> </li>
+                <li><a class="souligne" href="area-of-expertise.html">AREAS OF EXPERTISE</a></li>
+                <li><a class="souligne" href="contact.html">CONTACT US</a></li>
+                <li class="linkedin-nav">
+                <a class=" flex flex-row" href="#" target="_blank">
+                    <h4 class="font-bold">LINKEDIN</h4>
+                    <img class="w-[19px] h-[19px]" src="src/img/icons8-linked-in.png" alt="icone-linkedIn">
+                </a>
+                </li>
+            </ul>
+         </nav>
+    </header>
+
+    <article class="bg-(--color-first)" >
+
+        <!-- début study-set-up -->
+
+        <section class="study-set-up">
+
+            <span class="title-article-service">
+                <!-- <h1>Study Set-Up</h1> -->
+                <p><strong>Study Set-Up |</strong> Our biostatisticians take a flexible approach to your project, giving you the tailored support, you 
+                need. Our team can integrate fully with yours, supporting you with statistical tasks throughout the life of your clinical 
+                trial.
+                </p>
+            </span>
+            
+            <span class="flex flex-row flex-wrap">
+                <main class="container-article-service">
+                    <div class="title-inside"><h1> Protocol Review & Writing </h1></div>
+                    
+                    <div><p>Our input includes writing of statistical analysis sections, clinical study design, sample size calculations and 
+                    consultancy advice during the start-up of a study.</p></div>
+                </main>
+
+                <main class="container-article-service">
+                    <div class="title-inside"><h1> Creating Statistical Analysis Plans (SAP) and Output Shells </h1></div>
+                    
+                    <div><p>We ensure innovative approaches to the statistical content of a study to increase the chances of a successful 
+                        trial. By using standardised output shells, we ensure a smooth transition to Programming when using our 
+                        validated macros.
+                        </p></div>
+                </main>
+
+                <main class="container-article-service">
+                    <div class="title-inside"><h1> Interim Analysis/Data Safety Monitoring Boards (DSMBs)
+                     </h1></div>
+                    
+                    <div><p>We offer support at the start of the trial to set up the documentation for DSMBs and study designs to incorporate interim analysis.</p></div>
+                </main>
+
+                <main class="container-article-service">
+                    <div class="title-inside"><h1> Statistical Review of CRFs </h1></div>
+                    
+                    <div><p>With cross functional support for Clinical Data Management customers, CRFs are reviewed to ensure data collection endpoints are appropriate and necessary for the trial's objectives.</p></div>
+                </main>
+        </section>
+        <!-- fin début study-set-up -->
+
+        <!-- début study-set-up -->
+
+        <section class="study-reporting mt-[60px]">
+
+            <span class="title-article-service">
+                <!-- <h1>Study Set-Up</h1> -->
+                <p><strong>Study Reporting |</strong>  With a flexible approach, our dedicated team of data experts can help increase your data quality and save you time and deliver a high-quality deliverable to support clinical development plans and regulatory 
+                compliance. 
+                </p>
+                
+            </span>
+            
+            <span class="flex flex-row flex-wrap">
+                <main class="container-article-service">
+                    <div class="title-inside"><h1> ISS/ISE </h1></div>
+                    
+                    <div><p>We provide support for the integrated summaries of safety and integrated summaries of efficacy data prior to regulatory approval.</p></div>
+                </main>
+
+                <main class="container-article-service">
+                    <div class="title-inside"><h1> Clinical Data Interchange Standards Consortium (CDISC) </h1></div>
+                    
+                    <div><p>Using CDISC standards ensures that the data used in the outputs produced complies with regulatory standards.</p></div>
+                </main>
+
+                <main class="container-article-service">
+                    <div class="title-inside"><h1> Output Production </h1></div>
+                    
+                    <div><p>Using SAS ® Programming and R Programming to ensure increased efficiency when producing study report outputs.</p></div>
+                </main>
+
+                <main class="container-article-service">
+                    <div class="title-inside"><h1> Production of Statistical Reports/Statistical Review of Clinical Study Reports (CSRs) </h1></div>
+                    
+                    <div><p>Our statistical and medical writing teams collaborate to produce high-quality reports which display the study reporting results of trials. These are then used by Medical Writing in the creation of CSRs. We also review 
+                    these CSRs from a statistical perspective to ensure statistical integrity is upheld.</p></div>
+                </main>
+            </span>
+        </section>
+        <!-- fin début study-set-up -->
+        
+    </article>
+
+    <!-- bulle flottante -->
+
+    <div class="bulle-flottante flex flex-row items-center justify-center">
+        <a class="flex flex-row" href="#"><p>Nos actualités sur LinkedIn</p><img class="w-[30px] h-[auto] max-[640px]:w-[16px]" src="src/img/icons8-linked-in-couleur-bleu.png" alt="LinkedIn"></a>
+    </div>
+    <!-- fin bulle flottante -->
+
+    <footer class="flex flex-col bg-(--color-third)">
+        <div class="flex flex-wrap bg-(--color-third)">
+
+            <div class="flex flex-col p-[50px] ml-[10vw]">
+            <img class="w-[300px] h-[auto] mb-[-2vw]" src="src/img/logo-a-mettre.jpeg" alt="logo-biors">
+            <!-- <p class="text-(--color-first)">Biometry Resarch And Services </p> -->
+            </div>
+
+            <div class="text-(--color-first) flex flex-col p-[50px] ml-[10vw]">
+                <h1 class="underline underline-offset-6 decoration-3">Mention :</h1>
+                <ul>
+                    <li><a class="souligne items" href="#" target="_blank">Legal notices</a></li>
+                    <li><a class="souligne items" href="#" target="_blank">Site map</a></li>
+                    <li><a class="souligne items" href="#" target="_blank">Privacy policies</a></li>
+                    <li><a class="souligne items" href="#" target="_blank">CSR policy</a></li>
+                    <li><a class="souligne items" href="#" target="_blank">Cookies</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="text-center text-(--color-first)"><p>&copy; 2025 Biometry Resarch And Services . Tous droits réservés.</p></div>
+        
+    </footer>
 </body>
+
+<script src="src/JS/main.js"></script>
+<script src="src/JS/service.js"></script>
+
 </html>
