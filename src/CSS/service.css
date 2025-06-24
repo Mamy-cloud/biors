@@ -90,3 +90,7 @@ article section{
 .container-article-service p{
     font-size: 13px;
 }
+
+.container-article-service h1{
+    font-weight: 700;
+}
