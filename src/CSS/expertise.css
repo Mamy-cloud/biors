@@ -66,7 +66,7 @@ article section{
 }
 
 /* conteneur des box */
-.container-article-service{
+.container-article-expertise{
     
     padding: 15px;
     background-color: var(--color-article-container-service);
@@ -80,12 +80,17 @@ article section{
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25)
 }
 
+/* img à l'intérieur du container */
+.img-inside-contaier{
+    width: 300px;
+    height: 150px;
+}
 /* titre à l'intérieur du container */
 .title-inside{
     margin-bottom: 10px;
 }
 
-/* ----------------------------taille des polices p ---------------------- */
+/* ----------------------------polices p ---------------------- */
 /* à l'intérieur des container */
 .container-article-service p{
     font-size: 13px;
@@ -93,4 +98,7 @@ article section{
 
 .container-article-service h1{
     font-weight: bold;
+}
+.color-blue-items{
+    color: var(--color-third);
 }
