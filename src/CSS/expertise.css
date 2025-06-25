@@ -1,0 +1,96 @@
+/* --------------------------------------------------------------
+Variable
+-------------------------------------------------------------- */
+/* couleur */
+:root{
+    --color-first: #ffffff;
+    --color-second: #B8C5D6;
+    --color-third: #07387A;
+    --color-article-container-service: #EBF4F3;
+}
+/* police */
+:root{
+    --police-principale: "Montserrat", sans-serif;
+}
+
+/* -------------------------------------------------------------------
+effect ombre du header
+------------------------------------------------------------------- */
+
+/* header::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), transparent);
+} */
+/* --------------------------------------------------------------
+article
+-------------------------------------------------------------- */
+article{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 151px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+/* -----------effet ombre au début de l'article-------------------------------- */
+
+article::after{
+    content: "";
+    position: fixed;
+    top: 85px;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.05), transparent);
+    /* z-index: 300; */
+}
+
+article section{
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+
+
+/* -----------------------------------------study set-up--------------------------------- */
+/* couleur du haut de la partie */
+.title-article-service {
+    color: var(--color-third);
+    
+}
+
+/* conteneur des box */
+.container-article-service{
+    
+    padding: 15px;
+    background-color: var(--color-article-container-service);
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 0;
+    width: 300px;
+    /* height: 310px; */
+    height: auto;
+    border: solid 2px var(--color-article-container-service);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25)
+}
+
+/* titre à l'intérieur du container */
+.title-inside{
+    margin-bottom: 10px;
+}
+
+/* ----------------------------taille des polices p ---------------------- */
+/* à l'intérieur des container */
+.container-article-service p{
+    font-size: 13px;
+}
+
+.container-article-service h1{
+    font-weight: bold;
+}

@@ -37,7 +37,7 @@ body{
     bottom: -2px;
     width: 0;
     height: 1px;
-    background-color: var(--color-t);
+    background-color: var(--color-third);
     transition: width 0.3s ease-in-out;
 }
 
@@ -65,11 +65,19 @@ header{
   opacity: 1;
     mix-blend-mode: normal;
     width: 100%;
-    height: 150px;
+    height: 155px;
     position: fixed;
     background-color: var(--color-first);
     z-index: 200;
-    border-bottom: var(--color-second) solid 2px;
+    border-bottom: var(--color-third) solid 22px;
+}
+
+@media (max-width: 640px){
+  header{
+
+    height: 140px;
+
+}
 }
 
 /* -------------------icon linkedin header------------------------------ */
@@ -89,7 +97,7 @@ header{
 
 .logo a img{
     width: auto;
-    height: 140px;
+    height: 135px;
     transition: transform 0.2s ease-in-out;
     margin-bottom: -12px;
 }
@@ -101,6 +109,13 @@ header{
     font-size: 10px;
     /* position: absolute; */
     /* top: 74px; */
+}
+
+@media (max-width: 640px){
+  .logo a img{
+    height: 115px;
+    
+}
 }
 
 /* -------------------nav en mode PC------------------------------ */
@@ -138,7 +153,7 @@ nav{
   top: 70px;
   right: 10px;
   transform: translate(-50%, -50%);
-  background: var(--color-third);
+  background: var(--color-first);
   cursor: pointer;
   z-index: 20;
 }
@@ -151,7 +166,7 @@ nav{
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 5px;
-  background: var(--color-first);
+  background: var(--color-third);
 }
 
 .ligne::after,
@@ -160,7 +175,7 @@ nav{
   display: block;
   width: 100%;
   height: 3px;
-  background: var(--color-first);
+  background: var(--color-third);
   border-radius: 5px;
   position: absolute;
 }
@@ -210,7 +225,7 @@ nav{
     z-index: 200;
 }
 nav {
-top: 150px;
+top: 130px;
 position: absolute;
 height: auto;
 width: 100%;
@@ -222,7 +237,7 @@ left: -101%;
 
 
 .nav-list li {
-  border-bottom: var(--color-first) solid 1px;
+  border-bottom: var(--color-third) solid 1px;
   padding: 20px;
 }
 
@@ -288,7 +303,8 @@ bulle flottante
 }
 
 .bulle-flottante p{
-  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
 }
 
 @media (max-width: 640px){
@@ -314,7 +330,8 @@ bulle flottante
 footer
 ------------------------------------------------------------------------------- */
 footer p, a, h1{
-  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
   font-weight: bolder;
 }
 
