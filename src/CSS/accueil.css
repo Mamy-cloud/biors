@@ -6,6 +6,7 @@ Variable
     --color-first: #ffffff;
     --color-second: #B8C5D6;
     --color-third: #07387A;
+    --color-article-about: rgb(236,245, 254);
 }
 /* police */
 :root{
@@ -19,7 +20,7 @@ article
 article{
   margin-top: 150px;
   /* background-image: url('fond-image-accueil.png'); */
-  background-color: var(--color-second);
+  background-color: var(--color-article-about);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; 
