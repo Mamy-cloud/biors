@@ -39,6 +39,11 @@ article{
     background-color: var(--color-article-about);
 }
 
+@media(max-width:640px){
+    .container-article-responsive{
+        margin-top: 140px;
+    }
+}
 /* -----------effet ombre au début de l'article-------------------------------- */
 
 article::after{

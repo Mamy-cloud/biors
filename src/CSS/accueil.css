@@ -27,6 +27,12 @@ article{
     background-repeat: no-repeat; 
 }
 
+@media(max-width:640px){
+    .container-article-responsive{
+        margin-top: 140px;
+    }
+}
+
 .container{
   position: relative;
   width: 100%;

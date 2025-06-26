@@ -26,6 +26,12 @@ article{
     background-color: var(--color-article-about);
 }
 
+@media(max-width:640px){
+    .container-article-responsive{
+        margin-top: 140px;
+    }
+}
+
 article h1{
     font-weight: 800;
     margin-top: 40px;

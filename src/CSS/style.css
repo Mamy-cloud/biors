@@ -152,7 +152,7 @@ nav{
   border-radius: 50%;
   position: absolute;
   top: 70px;
-  right: 10px;
+  right: 10vw;
   transform: translate(-50%, -50%);
   background: var(--color-first);
   cursor: pointer;
@@ -205,12 +205,16 @@ nav{
   background: transparent;
 }
 
+/* @media (max-width: 1080px){
+  .burger{
+    display: flex;
+}
+} */
 
 
 
 
-
-@media (max-width: 1060px){
+@media (max-width: 1080px){
   /* -------------------icon linkedin header------------------------------ */
 .icon-linkedin-header{
   display: initial;

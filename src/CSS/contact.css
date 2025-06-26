@@ -22,6 +22,12 @@ article{
     background-color: var(--color-article-about);
 }
 
+@media(max-width:640px){
+    .container-article-responsive{
+        margin-top: 140px;
+    }
+}
+
 article section{
     padding-left: 15%;
     padding-right: 15%;
