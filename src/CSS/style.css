@@ -336,7 +336,7 @@ bulle flottante
 footer
 ------------------------------------------------------------------------------- */
 footer{
-  margin-bottom: 5px;
+  margin-bottom: 1px;
   /* margin-top: 30px;
   padding-top: 30px; */
 }
@@ -352,6 +352,6 @@ footer p, a, h1{
 } */
 .couleur-footer-bleue{
   width: 100%;
-  height: 25px;
+  height: 20px;
   background-color: var(--color-third);
 }
