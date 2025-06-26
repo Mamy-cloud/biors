@@ -352,6 +352,11 @@ footer p, a, h1{
 } */
 .couleur-footer-bleue{
   width: 100%;
-  height: 20px;
+  height: 25px;
+  background-color: var(--color-third);
+}
+.couleur-footer-service{
+  width: 100%;
+  height: 15px;
   background-color: var(--color-third);
 }
