@@ -18,6 +18,7 @@ article
 --------------------------------------------------------------------------- */
 
 article{
+  flex: 1;
   margin-top: 150px;
   /* background-image: url('fond-image-accueil.png'); */
   background-color: var(--color-article-about);

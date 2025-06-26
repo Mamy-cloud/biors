@@ -16,6 +16,7 @@ Variable
 article
 ------------------------------------------------------------------- */
 article{
+    flex: 1;
     margin-top: 151px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--color-article-about);
