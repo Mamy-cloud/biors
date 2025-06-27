@@ -82,10 +82,10 @@ article section{
     margin-top: 20px;
     margin-right: 20px;
     margin-left: 0;
-    width: 299px;
+    width: 300px;
     /* height: 310px; */
     height: auto;
-    border: solid 2px var(--color-article-container-service);
+    /* border: solid 0px var(--color-article-container-service); */
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25)
 }
 
@@ -96,9 +96,11 @@ article section{
 
 /* img à l'intérieur du container */
 .img-inside-contaier{
-    border: 1px solid red;
+    padding-right: -5px;
+    box-sizing: border-box;
+    /* position: absolute; */
     background-color: var(--color-first);
-    width: 300px;
+    width: 301px;
     height: 150px;
 }
 /* titre à l'intérieur du container */
