@@ -93,7 +93,7 @@ article h2::before {
 
 /* -----------------------------------------dimensionnement section------------------------- */
 article section{
-    margin-top: 10px;
+    margin-top: 20px;
     padding-top: 20px;
     background-color: var(--couleur-fond-page);
     margin-left: 10%;

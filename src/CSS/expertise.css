@@ -75,7 +75,7 @@ article::after{
 .container-article-expertise{
     
     /* padding: 15px; */
-    background-color: var(--color-article-container-service);
+    background-color: var(--color-first);
     margin-top: 20px;
     margin-right: 20px;
     margin-left: 0;
@@ -113,6 +113,10 @@ article::after{
 
 .container-article-service h1{
     font-weight: bold;
+}
+
+.title-inside{
+    color: var(--color-third);
 }
 .color-blue-items{
     color: var(--color-third);
