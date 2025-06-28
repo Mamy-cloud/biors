@@ -7,6 +7,7 @@ Variable
     --color-second: #B8C5D6;
     --color-third: #07387A;
     --color-article-about: rgb(236,245, 254);
+    --couleur-fond-page: rgb(240,240,240);
 }
 /* police */
 :root{
@@ -23,7 +24,7 @@ article{
     flex: 1;
     margin-top: 151px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--color-article-about);
+    background-color: var(--couleur-fond-page);
 }
 
 @media(max-width:640px){
