@@ -83,7 +83,7 @@ section .title-article{
 
 .layer-bg{
   width: 300px;
-  height: 40px;
+  height: 45px;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
 }
