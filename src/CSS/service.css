@@ -78,7 +78,8 @@ article::after{
 .container-article-service{
     
     padding: 15px;
-    background-color: var(--color-first);
+    /* background-color: var(--color-first); */
+    background: var(--color-first);
     margin-top: 20px;
     margin-right: 20px;
     margin-left: 0;
