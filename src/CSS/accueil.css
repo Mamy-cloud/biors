@@ -21,7 +21,7 @@ article
 article{
   flex: 1;
   margin-top: 150px;
-  /* background-image: url('fond-image-accueil.png'); */
+  background-image: url('fond_ecran_v1.png');
   background-color: var(--couleur-fond-page);
     background-size: cover;
     background-position: center;
