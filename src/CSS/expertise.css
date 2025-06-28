@@ -68,9 +68,9 @@ article::after{
 .title-article-service {
     color: var(--color-third);
 }
-.title-article-service p{
+/* .title-article-service p{
     margin-top: 40px;
-}
+} */
 /* conteneur des box */
 .container-article-expertise{
     

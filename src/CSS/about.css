@@ -35,7 +35,7 @@ article{
 
 article h1{
     font-weight: 800;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 19px;
     font-size: 20px;
 }
@@ -88,8 +88,9 @@ article h2::before {
 
 /* alignement de l'image à l'intérieur de la classe statistical-project */
 .statistical-project img{
-    margin-top: 40px;
+    margin-top: 20px;
 }
+
 
 /* -----------------------------------------dimensionnement section------------------------- */
 article section{
