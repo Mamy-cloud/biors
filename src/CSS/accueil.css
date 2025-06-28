@@ -139,22 +139,22 @@ section .title-article{
 .container1{
   /* top: 420px; */
   top:123px;
-  right: 10%;
+  right: 15%;
 }
 .container2{
   top: 400px;
-  right: 10%;
+  right: 15%;
 }
 
 .container3{
   
   top:120px;
- left: 20%;
+ left: 19%;
 }
 
 .container4{
  top:400px;
- left: 20%;
+ left: 19%;
 }
 .container5{
  top:125px;
@@ -163,13 +163,13 @@ section .title-article{
 .container6{
  top:250px;
  /* right: 150px; */
- right: 15%;
+ right: 22%;
 }
 .container7{
  /* top:35%;
  left: 40%; */
  top:250px;
-  left: 25%;
+  left: 27%;
 }
 .container8{
  top:340px;
