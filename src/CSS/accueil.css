@@ -11,7 +11,7 @@ Variable
 }
 /* police */
 :root{
-    --police-principale: "Montserrat", sans-serif;
+    --police-principale: Arial, Helvetica, sans-serif;
 }
 
 /* ---------------------------------------------------------------------------
@@ -82,7 +82,7 @@ section .title-article{
 /* ------------------------structure principal--------------------------------- */
 
 .layer-bg{
-  width: 300px;
+  width: 330px;
   height: 45px;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
@@ -112,7 +112,9 @@ section .title-article{
 
 /* titre des éléments */
 .title-container{
-    font-size: 28px;
+    color: var(--color-third);
+    font-weight: bold;
+    font-size: 25px;
     transition: text-shadow 0.2s ease-in-out;
     margin-bottom: 30px;
     text-shadow: 3px 3px 5px var(--color-first),
@@ -122,10 +124,10 @@ section .title-article{
 }
 
 .title-container:hover {
-    text-shadow: 7px 7px 15px var(--color-third),
-                 -7px -7px 15px var(--color-third),
-                 7px -7px 15px var(--color-third),
-                 -7px 7px 15px var(--color-third);
+    text-shadow: 7px 7px 15px var(--color-first),
+                 -7px -7px 15px var(--color-first),
+                 7px -7px 15px var(--color-first),
+                 -7px 7px 15px var(--color-first);
 }
 
 /* marge du texte à l'intérieur des bulles de texte */
@@ -137,11 +139,11 @@ section .title-article{
 .container1{
   /* top: 420px; */
   top:123px;
-  right: 2px;
+  right: 90px;
 }
 .container2{
   top: 340px;
-  right: 2px;
+  right: 90px;
 }
 
 .container3{
