@@ -82,8 +82,8 @@ section .title-article{
 /* ------------------------structure principal--------------------------------- */
 
 .layer-bg{
-  width: 330px;
-  height: 45px;
+  width: 250px;
+  height: 40px;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
 }
@@ -114,7 +114,7 @@ section .title-article{
 .title-container{
     color: var(--color-third);
     font-weight: bold;
-    font-size: 25px;
+    font-size: 21.3px;
     transition: text-shadow 0.2s ease-in-out;
     margin-bottom: 30px;
     text-shadow: 3px 3px 5px var(--color-first),
@@ -139,21 +139,22 @@ section .title-article{
 .container1{
   /* top: 420px; */
   top:123px;
-  right: 90px;
+  right: 10%;
 }
 .container2{
-  top: 340px;
-  right: 90px;
+  top: 400px;
+  right: 10%;
 }
 
 .container3{
-  top:200px;
-  left: 20%;
+  
+  top:120px;
+ left: 20%;
 }
 
 .container4{
- top:340px;
- left: 150px;
+ top:400px;
+ left: 20%;
 }
 .container5{
  top:125px;
@@ -162,13 +163,13 @@ section .title-article{
 .container6{
  top:250px;
  /* right: 150px; */
- right: 20%;
+ right: 15%;
 }
 .container7{
  /* top:35%;
  left: 40%; */
- top:120px;
- left: 90px;
+ top:250px;
+  left: 25%;
 }
 .container8{
  top:340px;
