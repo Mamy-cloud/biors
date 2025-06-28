@@ -53,7 +53,7 @@ body{
 
 .menu-selected{
   text-decoration: underline;
-  text-underline-offset: 3px;
+  text-underline-offset: 5px;
   text-decoration-color: var(--color-third);
 }
 @media (max-width: 1060px){
