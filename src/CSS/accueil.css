@@ -45,6 +45,10 @@ section{
     .container-article-responsive{
         margin-top: 140px;
     }
+    section{
+    margin-left: 0;
+    margin-right: 0;
+}
 }
 
 .container{
@@ -63,7 +67,7 @@ section .title-article{
   font-weight: bold;
   font-size: 45px;
   margin-top: 30px;
-  color:var(--color-third);
+  color:var(--couleur-fond-page);
 }
 
 /* ------------------------structure principal--------------------------------- */
