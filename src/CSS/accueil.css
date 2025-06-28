@@ -37,8 +37,8 @@ section{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 @media(max-width:640px){
@@ -62,6 +62,7 @@ section .title-article{
   font-weight: bold;
   font-size: 50px;
   margin-top: 30px;
+  color:var(--color-third);
 }
 
 /* ------------------------structure principal--------------------------------- */
@@ -131,7 +132,7 @@ section .title-article{
 
 .container3{
   top:200px;
-  left: 150px;
+  left: 20%;
 }
 
 .container4{
@@ -143,9 +144,9 @@ section .title-article{
  left: 40%;
 }
 .container6{
- top:200px;
+ top:250px;
  /* right: 150px; */
- right: 2px;
+ right: 20%;
 }
 .container7{
  /* top:35%;

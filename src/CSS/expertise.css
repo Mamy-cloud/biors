@@ -60,13 +60,6 @@ article::after{
     /* z-index: 300; */
 }
 
-article section{
-    margin-top: 10px;
-    padding-top: 20px;
-    margin-left: 15%;
-    margin-right: 15%;
-    background-color: var(--couleur-fond-page);
-}
 
 
 
@@ -123,9 +116,20 @@ article section{
 .color-blue-items{
     color: var(--color-third);
 }
-/* --------------------------modification de la section-------------------------- */
+/* -----------------------------------------dimensionnement section------------------------- */
+article section{
+    margin-top: 10px;
+    padding-top: 20px;
+    background-color: var(--couleur-fond-page);
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
 .section-pleine-largeur{
     flex:1;
     height: 100%;
     padding-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
