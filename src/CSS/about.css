@@ -100,6 +100,14 @@ article section{
     margin-right: 10%;
     
 }
+@media(max-width:640px){
+    article section{
+        margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+}
+
 
 .section-pleine-largeur{
     flex:1;
