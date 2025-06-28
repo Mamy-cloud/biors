@@ -22,9 +22,9 @@ article
 ----------------------------------------------------------------------------- */
 article{
     flex: 1;
-    margin-top: 151px;
+    margin-top: 120px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--couleur-fond-page);
+    background-color: var(--color-first);
 }
 
 @media(max-width:640px){
@@ -45,10 +45,19 @@ article p{
     margin-bottom: 15px;
 }
 article section{
-    padding-left: 15%;
-    padding-right: 15%;
+    margin-top: 10px;
+    padding-top: 20px;
+    background-color: var(--couleur-fond-page);
+    margin-left: 15%;
+    margin-right: 15%;
+    
 }
 
+/* pour que la section remplisse toute la page */
+.section-pleine-largeur{
+    height: 100vw;
+    flex: 1;
+}
 article strong{
     font-weight: 700;
 }
@@ -68,9 +77,10 @@ article h2::before {
     display: inline-block;
     width: 30px; /* Longueur du trait */
     height: 1px; /* Épaisseur */
-    background: black; /* Couleur */
+    background: var(--color-third); /* Couleur */
     margin-right: 10px; /* Espacement avec le texte */
     vertical-align: middle;
+    /* color: var(--color-third); */
 }
 
 @media(max-width:890px){
@@ -80,4 +90,14 @@ article h2::before {
     .why-us h2{
         margin-left: 0;
     }
+}
+
+/* --------mettre toutes les textes gras en bleue--------- */
+#couleur-bleue-about{
+    color: var(--color-third);
+}
+
+/* alignement de l'image à l'intérieur de la classe statistical-project */
+.statistical-project img{
+    margin-top: 40px;
 }

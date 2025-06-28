@@ -385,6 +385,7 @@ code css pour que le footer reste tout en bas de l'écran même si on dézoom
 }
 
 /* article */
-.contenu{
+/* .contenu{
   flex:1;
-}
+  /* width: 100vw; 
+} */
