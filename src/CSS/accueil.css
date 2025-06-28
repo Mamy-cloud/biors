@@ -50,7 +50,7 @@ section{
 .container{
   position: relative;
   width: 100%;
-    height: 40vw;
+    height: 700px;
     margin: auto;
     overflow: auto;
     
@@ -58,9 +58,10 @@ section{
 
 /* titre section */
 section .title-article{
+  padding: 10px;
   text-align: center;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 45px;
   margin-top: 30px;
   color:var(--color-third);
 }
