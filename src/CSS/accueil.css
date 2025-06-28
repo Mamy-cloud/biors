@@ -209,15 +209,5 @@ section .title-article{
 /* --------------------------modification de la section-------------------------- */
 .section-pleine-largeur{
     flex:1;
-    height: 50vw;
-}
-@media (max-width: 1510px){
-  .section-pleine-largeur{
-    height: 75vw;
-}
-}
-@media (max-width: 1060px){
-  .section-pleine-largeur{
-    height: auto;
-}
+    height: 100%;
 }

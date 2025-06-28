@@ -53,11 +53,7 @@ article section{
     
 }
 
-/* pour que la section remplisse toute la page */
-.section-pleine-largeur{
-    height: 100vw;
-    flex: 1;
-}
+
 article strong{
     font-weight: 700;
 }
@@ -100,4 +96,11 @@ article h2::before {
 /* alignement de l'image à l'intérieur de la classe statistical-project */
 .statistical-project img{
     margin-top: 40px;
+}
+
+/* --------------------------modification de la section-------------------------- */
+.section-pleine-largeur{
+    flex:1;
+    height: 100%;
+    padding-bottom: 20px;
 }

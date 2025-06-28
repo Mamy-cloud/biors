@@ -126,5 +126,6 @@ article section{
 /* --------------------------modification de la section-------------------------- */
 .section-pleine-largeur{
     flex:1;
-    height: 100vw;
+    height: 100%;
+    padding-bottom: 20px;
 }
