@@ -23,7 +23,6 @@ article{
 }
 .contenu{
     flex:1;
-    /* height: 100%; */
 }
 
 @media(max-width:640px){
