@@ -105,8 +105,8 @@ article::after{
 }
 /* -----------------------------------------dimensionnement section------------------------- */
 article section{
-    margin-top: 10px;
-    padding-top: 20px;
+    /* margin-top: 10px; */
+    padding-top: 40px;
     background-color: var(--couleur-fond-page);
     margin-left: 10%;
     margin-right: 10%;

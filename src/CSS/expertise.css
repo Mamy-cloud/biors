@@ -65,6 +65,7 @@ article::after{
 /* couleur du haut de la partie */
 .title-article-service {
     color: var(--color-third);
+    
 }
 
 /* conteneur des box */
@@ -81,9 +82,13 @@ article::after{
 
 /* conteneur texte */
 .container-text-expertise{
-    padding: 15px;
+    padding: 20px;
 }
 
+
+span{
+    padding: 20px;
+}
 /* img à l'intérieur du container */
 .img-inside-contaier{
     padding-right: -5px;
@@ -119,8 +124,8 @@ strong{
 }
 /* -----------------------------------------dimensionnement section------------------------- */
 article section{
-    margin-top: 10px;
-    padding-top: 20px;
+    /* margin-top: 40px; */
+    padding-top: 30px;
     background-color: var(--couleur-fond-page);
     margin-left: 10%;
     margin-right: 10%;
