@@ -60,7 +60,9 @@ article::after{
     
 }
 
-
+span{
+    padding: 10px;
+}
 
 
 
