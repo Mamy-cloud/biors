@@ -158,7 +158,7 @@ nav{
   border-radius: 50%;
   position: absolute;
   top: 70px;
-  right: 10vw;
+  right: 6%;
   transform: translate(-50%, -50%);
   background: var(--color-first);
   cursor: pointer;
@@ -220,7 +220,7 @@ nav{
 
 
 
-@media (max-width: 1080px){
+@media (max-width: 1060px){
   /* -------------------icon linkedin header------------------------------ */
 .icon-linkedin-header{
   display: initial;
@@ -236,7 +236,7 @@ nav{
     z-index: 200;
 }
 nav {
-top: 130px;
+top: 159px;
 position: absolute;
 height: auto;
 width: 100%;
@@ -293,6 +293,12 @@ nav.menu-active {
 }
 }
 
+@media (max-width: 640px){
+  nav {
+  top: 140px;
+  }
+}
+
 
 
 /* ---------------------------------------------------------------------------------
@@ -320,8 +326,7 @@ bulle flottante
 
 @media (max-width: 640px){
   .bulle-flottante{
-  right: 8px;
-  bottom: 58px;
+  
   border-radius: 12px;
 }
 .bulle-flottante a{
@@ -368,11 +373,12 @@ footer p, a, h1{
   height: 25px;
   background-color: var(--color-third);
 }
-/* .couleur-footer-service{
-  width: 100%;
-  height: 15px;
-  background-color: var(--color-third);
-} */
+
+@media (max-width:427px){
+  .couleur-footer-bleue{
+  height: 40px;
+}
+}
 
 /* ----------------------------------------------------------------------
 code css pour que le footer reste tout en bas de l'écran même si on dézoom

@@ -68,21 +68,16 @@ article::after{
 .title-article-service {
     color: var(--color-third);
 }
-/* .title-article-service p{
-    margin-top: 40px;
-} */
+
 /* conteneur des box */
 .container-article-expertise{
     
-    /* padding: 15px; */
     background-color: var(--color-first);
     margin-top: 20px;
-    margin-right: 20px;
-    margin-left: 0;
+    margin-right: 10px;
+    margin-left: 10px;
     width: 300px;
-    /* height: 310px; */
     height: auto;
-    /* border: solid 0px var(--color-article-container-service); */
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25)
 }
 
@@ -115,6 +110,9 @@ article::after{
     font-weight: bold;
 }
 
+strong{
+    color: var(--color-third);
+}
 .title-inside{
     color: var(--color-third);
 }
