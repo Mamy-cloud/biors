@@ -66,15 +66,21 @@ article h2{
     margin-left: 50px;
 }
 
-article h2::before {
+/* article h2::before {
     content: "";
     display: inline-block;
-    width: 30px; /* Longueur du trait */
-    height: 1px; /* Épaisseur */
-    background: var(--color-third); /* Couleur */
-    margin-right: 10px; /* Espacement avec le texte */
+    width: 30px;
+    height: 1px;
+    background: var(--color-third);
+    margin-right: 10px;
     vertical-align: middle;
-    /* color: var(--color-third); */
+    
+} */
+
+#couleur-marge-about{
+    color: var(--color-third);
+    /* margin-left: 30px; */
+    font-weight: bolder;
 }
 
 @media(max-width:890px){
