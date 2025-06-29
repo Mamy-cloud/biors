@@ -100,11 +100,12 @@ article::after{
 /* ----------------------------polices p ---------------------- */
 /* à l'intérieur des container */
 .container-article-service p{
-    font-size: 13px;
+    font-size: 16px;
 }
 
 .container-article-service h1{
     font-weight: bold;
+    font-size: 16px;
 }
 
 strong{
