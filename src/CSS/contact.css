@@ -42,8 +42,9 @@ article h1{
 }
 
 article h2{
-    font-weight: 800;
-    
+    font-weight: bold;
+    color: var(--color-third);
+    font-size: 18px;
 }
 
 article p{
