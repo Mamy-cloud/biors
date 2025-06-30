@@ -64,7 +64,10 @@ span{
     padding: 10px;
 }
 
-
+strong{
+    display: inline-block;
+    margin-bottom: 10px;
+}
 
 /* -----------------------------------------study set-up--------------------------------- */
 /* couleur du haut de la partie */

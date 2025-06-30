@@ -58,7 +58,7 @@ article strong{
 
 .statistical-project{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 article h2{
@@ -86,10 +86,8 @@ article h2{
     color: var(--color-third);
 }
 
-/* alignement de l'image à l'intérieur de la classe statistical-project */
-.statistical-project img{
-    margin-top: 20px;
-}
+
+
 
 
 /* -----------------------------------------dimensionnement section------------------------- */
@@ -119,7 +117,7 @@ article section{
 }
 
 /* ------------------------------------partie du titre The Statistical Project Lead------------------------------ */
-.title-statistical-projet-responsive{
+/* .title-statistical-projet-responsive{
     display: none;
 }
 @media(max-width:890px){
@@ -130,4 +128,4 @@ article section{
     .title-statistical-projet-pc{
         display: none;
     }
-}
+} */
