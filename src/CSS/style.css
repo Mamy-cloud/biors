@@ -362,11 +362,6 @@ footer p, a, h1{
   background-color: var(--color-third);
 }
 
-@media (max-width:427px){
-  .couleur-footer-bleue{
-  height: 40px;
-}
-}
 
 /* ----------------------------------------------------------------------
 code css pour que le footer reste tout en bas de l'écran même si on dézoom
