@@ -116,3 +116,17 @@ article section{
     padding-left: 5%;
     padding-right: 5%;
 }
+
+/* ------------------------------------partie du titre The Statistical Project Lead------------------------------ */
+.title-statistical-projet-responsive{
+    display: none;
+}
+@media(max-width:890px){
+    .title-statistical-projet-responsive{
+    display: inline;
+    margin-bottom: 0;
+}
+    .title-statistical-projet-pc{
+        display: none;
+    }
+}
