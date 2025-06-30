@@ -105,3 +105,18 @@ article section{
     padding-left: 5%;
     padding-right: 5%;
 }
+/* ---------------------gestion location in europe and in africa-------------------------------- */
+@media (max-width:1031px){
+    .gestion-affichage{
+        align-items: start;
+        justify-content: start;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:660px){
+    .gestion-affichage{
+        align-items: center;
+        justify-content: center;
+    }
+}
