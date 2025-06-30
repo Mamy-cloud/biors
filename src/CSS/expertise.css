@@ -131,7 +131,6 @@ strong{
 }
 /* -----------------------------------------dimensionnement section------------------------- */
 article section{
-    /* margin-top: 40px; */
     padding-top: 30px;
     background-color: var(--couleur-fond-page);
     margin-left: 10%;
