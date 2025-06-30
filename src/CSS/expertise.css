@@ -129,8 +129,7 @@ span{
 
 strong{
     color: var(--color-third);
-    display: inline-block;
-    margin-bottom: 10px;
+    
 }
 .title-inside{
     color: var(--color-third);
