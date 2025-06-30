@@ -64,9 +64,17 @@ span{
     padding: 10px;
 }
 
-strong{
+/* strong{
     display: inline-block;
     margin-bottom: 10px;
+} */
+
+article h1{
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 19px;
+    font-size: 18px;
+    color: var(--color-third);
 }
 
 /* -----------------------------------------study set-up--------------------------------- */

@@ -62,6 +62,15 @@ article::after{
 
 
 /* -----------------------------------------study set-up--------------------------------- */
+
+article h1{
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 19px;
+    font-size: 18px;
+    color: var(--color-third);
+}
+
 /* couleur du haut de la partie */
 .title-article-service {
     color: var(--color-third);
