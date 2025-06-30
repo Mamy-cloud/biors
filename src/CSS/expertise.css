@@ -85,6 +85,11 @@ article::after{
     padding: 20px;
 }
 
+.container-text-expertise p{
+    font-size: 14.67px;
+    line-height: 1.6; /* améliore la lisibilité */
+}
+
 
 span{
     padding: 10px;
